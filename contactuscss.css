@@ -1,0 +1,25 @@
+﻿*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{background:#ebecf0;
+     height:100vh;
+    }
+.contact{display:grid;
+         grid-template-columns:1fr 2fr;
+         grid-template-rows:50px 500px 50px;
+          
+             align-content:center;
+             box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+            margin: 40px;
+           
+}
+.contactinfo{grid-column:1;
+margin:70px;
+}        
+
+h1{grid-column:2;
+}

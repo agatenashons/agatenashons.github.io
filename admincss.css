@@ -1,0 +1,71 @@
+﻿*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{background:#ebecf0;
+     height:100vh;
+}
+header{display:grid;
+       grid-template-columns: 1fr;
+       margin:10px 40px 5px 40px;
+       height:100px;
+      align-content:center;
+       justify-content:center;
+             box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+        }
+h1{display:grid;
+   align-self:center;
+   justify-content:center;
+   margin:auto;
+
+}
+
+h2{display:grid;
+   align-self:center;
+   justify-content:center;
+   margin:10px;
+}
+
+p{margin:20px;
+}
+
+.from{display:grid;
+      grid-template-columns:1fr;
+      grid-template-rows:230px 230px 220px;
+      grid-gap:20px;
+      box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+            margin: 20px;
+
+}
+
+
+
+.chief{box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+            margin: 20px;
+}
+.deputyone{box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+            margin: 20px;
+}
+
+.deputytwo{box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+            margin: 20px;
+}
+
+     
+
+
+
+
+
+}

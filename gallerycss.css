@@ -1,0 +1,23 @@
+﻿*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{background:#ebecf0;
+     height:100vh;
+    }
+.maincont{display:grid;
+          grid-template-columns:0.75fr 0.75fr 0.75fr;
+          grid-template-rows:250px 250px 250px;
+          margin:40px;
+          gap:20px;
+          box-shadow: 7px 7px 10px rgba(55,84,170, .15),
+                        -7px -7px 20px #fff,
+                        1px 1px 4px rgba(255,255,255,.2);
+        
+}
+
+.ima{ display:grid;
+     align-self:center;
+     justify-self:center;
+}
