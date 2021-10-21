@@ -34,7 +34,7 @@ p{margin:20px;
 
 .from{display:grid;
       grid-template-columns:1fr;
-      grid-template-rows:230px 230px 220px;
+      grid-template-rows:260px 260px 260px;
       grid-gap:20px;
       box-shadow: 7px 7px 10px rgba(55,84,170, .15),
                         -7px -7px 20px #fff,
